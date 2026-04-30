@@ -12,9 +12,29 @@ The results demonstrate that combining K-medoids clustering with Adaptive Large 
 
 # Code structure
 
-The folder ***data*** contains 2 folders with datasets, 2 Python files that were used to generate the data and 1 notebook for data visualization.
-- folder *synthetic_data_kyiv_varash* - contains data for Kyiv and Varash
-- folder *synthetic_data_ternopil_dubno* - contains data for Ternopil and Dubno
-- *generate_synthetic_data.py* - file for generation data for Kyiv and Varash, contains 25 file for each city with points to be served
-- *generate_data_simple.py* - file for generation data for Ternopil and Dubno, contains 25 file for each city with points to be served
-- *visualization_sythetic_data.ipynb* - notebook for visualization of synthetic data
+The folder ***data*** contains 2 folders with datasets, 2 Python files that were used to generate the data and 1 notebook for data visualization:
+- folder *synthetic_data_kyiv_varash* - contains data for Kyiv and Varash;
+- folder *synthetic_data_ternopil_dubno* - contains data for Ternopil and Dubno;
+- *generate_synthetic_data.py* - file for generation data for Kyiv and Varash, contains 25 file for each city with points to be served;
+- *generate_data_simple.py* - file for generation data for Ternopil and Dubno, contains 25 file for each city with points to be served;
+- *visualization_sythetic_data.ipynb* - notebook for visualization of synthetic data.
+
+The folder ***clusterization*** contains 3 files with clusterization and 1 notebokk with experiments and results:
+- *aglo_klasters_2.py* - realization of aglomerative clusterization;
+- *gmm_2.py* - realization of Gausian Mixture Models clusterization;
+- *k_medoids_2.py* - realization of K-medoids clusterization;
+- *clustering_2.ipynb* - notebook for tuning parameters for each clusterization method and final comparison of clutering approaches.
+
+The folder ***algorithms*** contains files with algorithms examples and experiments:
+- *build_matrices.py* - file for building matrices of time and distance for service points based on OpenStreetMap requests;
+- *greedy_auto_time_start_1.py* - realization of greedy alrorithm where time start is calculated based on time windows;
+- *greedy_time_simulate_1.py* - realization of greedy alrorithm where time start is indentified using simulations;
+- *time_start_test_1.ipynb* - notebook with experiments for start time;
+- *vns_3.py* - realization of the Variable Neighborhood Search;
+- *run_vns_experiment_3.ipynb* - notebook for parameters tuning for VNS;
+- *alns_3.py* - realization of the Adaptive Large Neighborhood Search;
+- *run_alns_experiment_3.ipynb* - notebook for parameters tuning for ALNS;
+- *final_experiments.ipynb* - notebook with final experiments and results.
+
+
+For better understanding, all files have been sorted into folders. In order to run the code, it is best to move all files from the clustering and algorithms folders into one folder, in which also place the data folders.
