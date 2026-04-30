@@ -1,7 +1,7 @@
-# Optimization of Daily Route Planning for a Logistic Company
+# 📚 Optimization of Daily Route Planning for a Logistic Company
 This repository contains synthetic data, code and experiments for Bachelor's Thesis Constrained Optimization of Daily Route Planning for a Logistic Company.
 
-# Abstract
+# 📖 Abstract
 Daily route planning in logistics companies is a complex task due to operational constraints such as time windows, service durations, and limited crew availability. In practice, many companies rely on manual or semi-manual planning, which is time-consuming and may require up to 40% of a planner’s working time.
 
 This thesis formulates the problem as a Vehicle Routing Problem with Time Windows and proposes a three-stage optimization pipeline. The approach combines clustering-based decomposition using K-medoids, Agglomerative clustering, and Gaussian Mixture Models, greedy construction of initial routes with route start-time selection, and iterative improvement using Variable Neighborhood Search and Adaptive Large Neighborhood Search.
@@ -10,7 +10,7 @@ Experiments on synthetic datasets representing four Ukrainian cities with 30–6
 
 The results demonstrate that combining K-medoids clustering with Adaptive Large Neighborhood Search for large instances and with Variable Neighborhood Search for smaller ones provides a scalable and efficient solution, significantly reducing route duration and improving planning efficiency.
 
-# Code structure
+# 🛠️Code structure
 
 The folder ***data*** contains 2 folders with datasets, 2 Python files that were used to generate the data and 1 notebook for data visualization:
 - folder *synthetic_data_kyiv_varash* - contains data for Kyiv and Varash;
