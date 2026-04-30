@@ -12,7 +12,7 @@ The results demonstrate that combining K-medoids clustering with Adaptive Large 
 
 # Code structure
 
-The folder *data* contains 2 folders with datasets, 2 Python files that were used to generate the data and 1 notebook for data visualization.
+The folder ***data*** contains 2 folders with datasets, 2 Python files that were used to generate the data and 1 notebook for data visualization.
 - folder *synthetic_data_kyiv_varash* - contains data for Kyiv and Varash
 - folder *synthetic_data_ternopil_dubno* - contains data for Ternopil and Dubno
 - *generate_synthetic_data.py* - file for generation data for Kyiv and Varash, contains 25 file for each city with points to be served
